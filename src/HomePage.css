@@ -1,11 +1,11 @@
-.hompage {
+.homepage {
     display: flex;
 
-    .hompage-nav {
+    .homepage-nav {
         flex: .2;
     }
 
-    .hompage-timeline {
+    .homepage-timeline {
         flex: .8;
     }
 }

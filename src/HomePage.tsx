@@ -1,14 +1,17 @@
 import React from "react";
+import "./HomePage.css";
+import Sidenav from "./components/navigation/Sidenav";
+import Timeline from "./components/timeline/Timeline";
 
 function HomePage() {
   return (
     <div className="homepage">
       <div className="homepage-nav">
-        <h2>sidenav</h2>
+        <Sidenav />
       </div>
 
       <div className="homepage-timeline">
-        <h2>timeline</h2>
+        <Timeline />
       </div>
     </div>
   );
