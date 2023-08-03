@@ -19,6 +19,50 @@ function Sidenav() {
         src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
         alt="Insta Logo"
       />
+
+      <div className="sidenav-buttons">
+        <button className="sidenav-btn">
+          <HomeIcon />
+          <span>Home</span>
+        </button>
+
+        <button className="sidenav-btn">
+          <SearchIcon />
+          <span>Search</span>
+        </button>
+
+        <button className="sidenav-btn">
+          <ExploreIcon />
+          <span>Explore</span>
+        </button>
+
+        <button className="sidenav-btn">
+          <SlideshowIcon />
+          <span>Reels</span>
+        </button>
+
+        <button className="sidenav-btn">
+          <ChatIcon />
+          <span>Messages</span>
+        </button>
+
+        <button className="sidenav-btn">
+          <FavoriteBorderIcon />
+          <span>Notifications</span>
+        </button>
+
+        <button className="sidenav-btn">
+          <AddCircleOutlineIcon />
+          <span>Create</span>
+        </button>
+      </div>
+
+      <div className="sidenav-more">
+        <button className="sidenav-btn">
+          <MenuIcon />
+          <span>More</span>
+        </button>
+      </div>
     </div>
   );
 }
