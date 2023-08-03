@@ -9,22 +9,19 @@ import {
   Telegram,
 } from "@mui/icons-material";
 
-function Posts() {
+function Posts({ user, postImage, likes, timeStamp }) {
   return (
     <div className="post">
       <div className="post-header">
         <div className="post-header-user">
-          <Avatar>Y</Avatar>
-          y.ar.o • <span>12h</span>
+          <Avatar>{user.charAt(0).toUpperCase()}</Avatar> {user} •{" "}
+          <span>{timeStamp}</span>
         </div>
         <MoreHorizOutlined />
       </div>
 
       <div className="post-image">
-        <img
-          src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png"
-          alt=""
-        />
+        <img src={postImage} alt="" />
       </div>
 
       <div className="post-footer">
@@ -38,7 +35,7 @@ function Posts() {
             <BookmarkBorderOutlined className="post-icon" />
           </div>
         </div>
-        Liked by 182 people
+        Liked by {likes} people
       </div>
     </div>
   );
