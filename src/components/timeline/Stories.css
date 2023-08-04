@@ -1,8 +1,27 @@
-.stories-container {
-  width: 70%;
-  height: 150px;
-  border: 1px solid red;
+.section-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+  .stories-container {
+    width: 70%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .user-logged {
+    width: 30%;
+    margin: 0;
+    height: 150px;
+    display: flex;
+    margin: 0 20px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }
