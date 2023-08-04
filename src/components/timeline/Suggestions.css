@@ -1,39 +1,56 @@
 .suggestions-container {
-    margin: 30px 20px 0 0;
+  /* margin: 30px 20px 0 0; */
 
-    .sugg-title {
-        color: grey;
-        font-weight: bold;        
-    }
+  .sugg-title {
+    color: grey;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
 
-    .sugg-username-container {
-        .sugg-username {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 15px;
+  .sugg-username-container {
+    .sugg-username {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
 
-            .user-left {
-                display: inline;
+      .user-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
 
-                .user-info {
-                    display: flex;
-                    flex-direction: column;
+        .user-info {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
 
-                    .user-relation {
-                        color: grey;
-                        font-size: .8rem;
-                    }
-                }
-            }
+          .user-name {
+            font-weight: 600;
+            font-size: 1.8rem;
+          }
 
-            .user-right {
-                .action {
-                    color: #0095f6;
-                    font-weight: bold;
-                    background: 0;
-                    border: 0;
-                }
-            }
+          .user-relation {
+            color: grey;
+          }
         }
+      }
+
+      .user-right {
+        display: flex;
+        align-items: center;
+
+        .action {
+          color: #0095f6;
+          font-weight: bold;
+          font-size: 1.3rem;
+          background: 0;
+          border: 0;
+          cursor: pointer;
+        }
+
+        .action:hover {
+          color: white;
+        }
+      }
     }
+  }
 }

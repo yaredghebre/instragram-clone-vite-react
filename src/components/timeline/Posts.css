@@ -1,56 +1,54 @@
 .post {
-    width: 550px;
-    margin: 30px 40px 50px 40px;
+  width: 50%;
+  margin: 30px auto;
 
-    .post-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 10px;
-        
-        .post-header-user {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-weight: bold;
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 
-            > span {
-                color: grey;
-                font-size: .9rem;
-            }
-        }
+    .post-header-user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: bold;
+
+      > span {
+        color: grey;
+        font-size: 0.9rem;
+      }
     }
+  }
 
-    .post-image {
-        /* background-color: white; */
-        > img {
-            width: 100%;
-            height: 400px;
-            max-height: 500px;
-            object-fit: contain;
-            border-radius: 5px;
-            border: .6px solid rgba(128, 128, 128, 0.6);
-        }
+  .post-image {
+    /* background-color: white; */
+    > img {
+      width: 100%;
+      height: 400px;
+      max-height: 500px;
+      object-fit: contain;
+      border-radius: 5px;
+      border: 0.6px solid rgba(128, 128, 128, 0.6);
     }
+  }
 
-    .post-footer {
-        .post-footer-icons {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            
-            .post-footer-icons-left {
-                .post-icon {
-                    padding: 5px;
-                }
-            }
+  .post-footer {
+    .post-footer-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
 
-            .post-icon {
-                cursor: pointer;
-                font-size: 1.7rem;
-            }
+      .post-footer-icons-left {
+        .post-icon {
+          padding: 5px;
         }
+      }
+
+      .post-icon {
+        cursor: pointer;
+        font-size: 1.7rem;
+      }
     }
+  }
 }
-
-

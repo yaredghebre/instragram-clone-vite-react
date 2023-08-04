@@ -1,0 +1,8 @@
+.stories-container {
+  width: 70%;
+  height: 150px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,11 +1,11 @@
 .homepage {
-    display: flex;
+  display: flex;
 
-    .homepage-nav {
-        flex: .2;
-    }
+  .homepage-nav {
+    flex: 0.2;
+  }
 
-    .homepage-timeline {
-        flex: .8;
-    }
+  .homepage-timeline {
+    flex: 0.8;
+  }
 }
